@@ -536,20 +536,8 @@
                     "src": "classic/sass/save"
                 }
             }
-        },
-
-        "modern": {
-            "toolkit": "modern",
-            
-            "theme": "theme-triton",
-            
-            "sass": {
-                "generated": {
-                    "var": "modern/sass/save.scss",
-                    "src": "modern/sass/save"
-                }
-            }
         }
+
     },
     
     
