@@ -5,7 +5,7 @@
  *
  * TODO - Replace this content of this view to suite the needs of your application.
  */
-Ext.define('Javascript.extjs.hello.world.demo.view.main.Main', {
+Ext.define('hello.view.main.Main', {
     extend: 'Ext.tab.Panel',
     xtype: 'app-main',
 
@@ -13,9 +13,9 @@ Ext.define('Javascript.extjs.hello.world.demo.view.main.Main', {
         'Ext.plugin.Viewport',
         'Ext.window.MessageBox',
 
-        'Javascript.extjs.hello.world.demo.view.main.MainController',
-        'Javascript.extjs.hello.world.demo.view.main.MainModel',
-        'Javascript.extjs.hello.world.demo.view.main.List'
+        'hello.view.main.MainController',
+        'hello.view.main.MainModel',
+        'hello.view.main.List'
     ],
 
     controller: 'main',

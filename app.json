@@ -2,7 +2,7 @@
     /**
      * The application's namespace.
      */
-    "name": "Javascript.extjs.hello.world.demo",
+    "name": "hello",
     
     /**
      * The version of the application.
@@ -76,13 +76,13 @@
     "sass": {
         /**
          * The root namespace to use when mapping *.scss files to classes in the
-         * sass/src and sass/var directories. For example, "Javascript.extjs.hello.world.demo.view.Foo" would
-         * map to "sass/src/view/Foo.scss". If we changed this to "Javascript.extjs.hello.world.demo.view" then
+         * sass/src and sass/var directories. For example, "hello.view.Foo" would
+         * map to "sass/src/view/Foo.scss". If we changed this to "hello.view" then
          * it would map to "sass/src/Foo.scss". To style classes outside the app's
          * root namespace, change this to "". Doing so would change the mapping of
-         * "Javascript.extjs.hello.world.demo.view.Foo" to "sass/src/Javascript.extjs.hello.world.demo/view/Foo.scss".
+         * "hello.view.Foo" to "sass/src/hello/view/Foo.scss".
          */
-        "namespace": "Javascript.extjs.hello.world.demo",
+        "namespace": "hello",
 
         /**
          * Generated sass source settings

@@ -4,22 +4,18 @@
  * Sencha Cmd when upgrading.
  */
 Ext.application({
-    name: 'Javascript.extjs.hello.world.demo',
+    name: 'hello',
 
-    extend: 'Javascript.extjs.hello.world.demo.Application',
-
-    requires: [
-        'Javascript.extjs.hello.world.demo.view.main.Main'
-    ],
+    extend: 'hello.Application',
 
     // The name of the initial view to create. With the classic toolkit this class
     // will gain a "viewport" plugin if it does not extend Ext.Viewport. With the
     // modern toolkit, the main view will be added to the Viewport.
     //
-    mainView: 'Javascript.extjs.hello.world.demo.view.main.Main'
+    mainView: 'hello.view.main.Main'
 	
     //-------------------------------------------------------------------------
-    // Most customizations should be made to Javascript.extjs.hello.world.demo.Application. If you need to
+    // Most customizations should be made to hello.Application. If you need to
     // customize this file, doing so below this section reduces the likelihood
     // of merge conflicts when upgrading to new versions of Sencha Cmd.
     //-------------------------------------------------------------------------

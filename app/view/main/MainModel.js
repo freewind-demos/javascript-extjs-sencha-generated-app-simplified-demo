@@ -1,13 +1,13 @@
 /**
  * This class is the view model for the Main view of the application.
  */
-Ext.define('Javascript.extjs.hello.world.demo.view.main.MainModel', {
+Ext.define('hello.view.main.MainModel', {
     extend: 'Ext.app.ViewModel',
 
     alias: 'viewmodel.main',
 
     data: {
-        name: 'Javascript.extjs.hello.world.demo',
+        name: 'ext-demo',
 
         loremIpsum: 'Hello extjs'
     }

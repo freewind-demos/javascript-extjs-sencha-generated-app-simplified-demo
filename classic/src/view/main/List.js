@@ -1,12 +1,12 @@
 /**
  * This view is an example list of people.
  */
-Ext.define('Javascript.extjs.hello.world.demo.view.main.List', {
+Ext.define('hello.view.main.List', {
     extend: 'Ext.grid.Panel',
     xtype: 'mainlist',
 
     requires: [
-        'Javascript.extjs.hello.world.demo.store.Personnel'
+        'hello.store.Personnel'
     ],
 
     title: 'Personnel',

@@ -3,11 +3,9 @@
  * calls Ext.application(). This is the ideal place to handle application launch and
  * initialization details.
  */
-Ext.define('Javascript.extjs.hello.world.demo.Application', {
+Ext.define('hello.Application', {
     extend: 'Ext.app.Application',
     
-    name: 'Javascript.extjs.hello.world.demo',
-
     stores: [
         // TODO: add global / shared stores here
     ],

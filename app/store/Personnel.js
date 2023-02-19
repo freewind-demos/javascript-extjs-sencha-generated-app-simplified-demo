@@ -1,4 +1,4 @@
-Ext.define('Javascript.extjs.hello.world.demo.store.Personnel', {
+Ext.define('hello.store.Personnel', {
     extend: 'Ext.data.Store',
 
     alias: 'store.personnel',
