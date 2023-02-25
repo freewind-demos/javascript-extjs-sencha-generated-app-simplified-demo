@@ -12,9 +12,11 @@ Ext.define('hello.Application', {
     
     launch: function () {
         // TODO - Launch the application
+        console.log("### launch")
     },
 
     onAppUpdate: function () {
+        console.log("### onAppUpdate")
         Ext.Msg.confirm('Application Update', 'This application has an update, reload?',
             function (choice) {
                 if (choice === 'yes') {
